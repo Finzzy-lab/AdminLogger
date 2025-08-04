@@ -1,0 +1,22 @@
+plugin:
+  enabled: "AdminLogger aktif."
+  disabled: "AdminLogger devre dışı."
+
+events:
+  gamemode-change: "{player} oyun modunu {oldmode} --> {newmode} olarak değiştirdi."
+  creative-item-take: "{player} creative modda {amount} x {item} aldı."
+
+commands:
+  give: "{player} oyuncuya eşya verdi: {target} → {item}"
+  tp: "{player} oyuncuyu ışınladı: {details}"
+  kill: "{player} '{target}' hedefini öldürdü."
+  ban: "{player} '{target}' oyuncusunu banladı."
+  kick: "{player} '{target}' oyuncusunu sunucudan attı."
+  op: "{player} '{target}' kişisini OP yaptı."
+  deop: "{player} '{target}' kişisinin OP yetkisini kaldırdı."
+  effect: "{player} '{target}' kişisine efekt verdi: {effect}"
+  summon: "{player} şu varlığı çağırdı: {entity}"
+  spawnpoint: "{player} spawn noktasını değiştirdi."
+  build-command: "{player} bir yapı komutu kullandı: {command} {args}"
+  setworldspawn: "{player} dünya spawn noktasını değiştirdi."
+  reload: "{player} sunucuyu yeniden başlattı (/reload)."
